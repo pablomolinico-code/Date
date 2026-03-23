@@ -19,7 +19,7 @@ public class Date {
   private final int day;
   private final int month;
   private final int year;
-  private String notes; // New variable of partner
+  private String notes;
   /**
    * Retrieves the day component of this date.
    *
