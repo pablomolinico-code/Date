@@ -60,6 +60,10 @@ public class Date {
     this.month = month;
     this.year = year;
   }
+  public Date(int tag, int monat, int jahr) { this.day = tag;
+    this.month = monat; this.year = jahr;
+  }
+
 
   public void printDate() {
     System.out.println(day + "/" + month + "/" + year);
