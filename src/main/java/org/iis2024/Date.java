@@ -60,11 +60,6 @@ public class Date {
     this.month = mes;
     this.year = año;
   }
-  public Date(int tag, int monat, int jahr) {
-    this.day = tag;
-    this.month = monat;
-    this.year = jahr;
-  }
 
 
   public void printDate() {
